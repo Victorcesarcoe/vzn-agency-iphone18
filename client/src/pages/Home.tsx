@@ -1,3 +1,4 @@
+import ColorShowcase from "@/components/ColorShowcase";
 import Hero from "@/components/Hero";
 
 export default function Home() {
@@ -5,7 +6,8 @@ export default function Home() {
     <div className="min-h-screen flex flex-col">
       <main>
         <Hero />
-        {/* Próximas seções da LP entram aqui abaixo da hero */}
+        <ColorShowcase />
+        {/* Próximas seções da LP entram aqui abaixo */}
       </main>
     </div>
   );
