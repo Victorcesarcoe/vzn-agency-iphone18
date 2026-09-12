@@ -1,4 +1,5 @@
 import ColorShowcase from "@/components/ColorShowcase";
+import Comparison from "@/components/Comparison";
 import Hero from "@/components/Hero";
 
 export default function Home() {
@@ -7,6 +8,7 @@ export default function Home() {
       <main>
         <Hero />
         <ColorShowcase />
+        <Comparison />
         {/* Próximas seções da LP entram aqui abaixo */}
       </main>
     </div>
