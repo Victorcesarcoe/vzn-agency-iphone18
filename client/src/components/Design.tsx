@@ -1,14 +1,18 @@
 /**
- * Design section: a quiet, text-led moment between the product sections —
- * just the headline over a dark studio-style background, no product photos.
+ * Design section: the four finishes floating over a dark background,
+ * dimmed to let the headline read clearly on top.
  */
 export default function Design() {
   return (
-    <section className="relative flex h-[70vh] min-h-[480px] w-full items-end overflow-hidden bg-gradient-to-b from-[#2b2b2b] to-[#131313]">
-      <div
-        className="pointer-events-none absolute left-1/2 top-1/3 h-[500px] w-[500px] -translate-x-1/2 -translate-y-1/2 rounded-full opacity-30 blur-3xl"
-        style={{ background: "radial-gradient(circle, #6a6a6a 0%, transparent 70%)" }}
+    <section className="relative flex h-[85vh] min-h-[600px] w-full items-end overflow-hidden bg-[#1a1a1a]">
+      <img
+        src="/design-phones.webp"
+        alt="iPhone 18 nas quatro cores disponíveis"
+        className="absolute inset-0 h-full w-full object-cover opacity-70"
       />
+
+      {/* Readability gradient behind the text */}
+      <div className="absolute inset-x-0 bottom-0 h-2/3 bg-gradient-to-t from-black/80 via-black/30 to-transparent" />
 
       <div className="container relative pb-16 sm:pb-20">
         <p className="mb-4 text-xs tracking-[0.2em] text-white/60">
