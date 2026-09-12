@@ -24,7 +24,7 @@ export default function ColorShowcase() {
   const [selected, setSelected] = useState(0);
 
   return (
-    <section className="bg-[#EFEDE7] py-20 sm:py-28">
+    <section className="bg-[#EFEDE7] py-20 sm:py-28" id="produtos">
       <div className="container">
         <p className="mb-4 text-xs tracking-[0.2em] text-neutral-500">
           01 — ESCOLHA O SEU

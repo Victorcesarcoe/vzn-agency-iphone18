@@ -1,4 +1,5 @@
 import ColorShowcase from "@/components/ColorShowcase";
+import Closing from "@/components/Closing";
 import Comparison from "@/components/Comparison";
 import Design from "@/components/Design";
 import Hero from "@/components/Hero";
@@ -13,7 +14,7 @@ export default function Home() {
         <Comparison />
         <IphoneDuo />
         <Design />
-        {/* Próximas seções da LP entram aqui abaixo */}
+        <Closing />
       </main>
     </div>
   );
