@@ -20,9 +20,8 @@ export default function IphoneDuo() {
           03 — IPHONE DUO
         </p>
 
-        <h2 className="max-w-xl font-[Archivo] text-5xl font-extrabold leading-[0.95] text-neutral-900 sm:text-6xl">
+        <h2 className="flex flex-wrap items-baseline gap-x-3 font-[Archivo] text-4xl font-extrabold leading-[0.95] text-neutral-900 sm:text-6xl">
           Duas telas.
-          <br />
           <span className="font-[Fraunces] font-medium italic">
             Um único iPhone.
           </span>
